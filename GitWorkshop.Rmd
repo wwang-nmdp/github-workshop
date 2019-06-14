@@ -1,0 +1,93 @@
+---
+title: "GitHub Workshop, Bioinformatics Team"
+author: "Pradeep Bashyal"
+date: "6/13/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## GitHub Signup Process
+
+1. Goto https://github.com/ and signup for a free account. 
+	- Make sure your GitHub username is your NMDP username and *-nmdp* added to it. Eg. my GitHub username is **pbashyal-nmdp** 
+	- Use your nmdp.org email address for the email
+2. Email me your GitHub username after you're signed up.
+3. I'll add you to CIBMTR org team and you will be sent an invite email to join.
+
+## Git vs GitHub
+
+**Git** is the revision control software.
+
+Git compares to **SVN**, **CVS**
+
+**GitHub** is a website and the remote server that hosts all the git repositories.
+
+GitHub compares to **BitBucket**, **GitLab** 
+
+## A tour of GitHub
+
+- Profile page
+  - Profile Update Bio etc.
+  - Security - Change Password
+  
+- Create a `hello-world` repo
+  
+- Settings on each repo
+
+- Issues
+
+- Pull Requests
+
+## A tour of Git
+
+Know **git** is terrible. It's not you.
+
+Keep it simple and you'll be fine.
+
+## Git concepts
+
+- Repository
+- Fork
+- Upstream
+- Origin
+- Git Commit
+- Pull Requests
+
+## Git Workflow
+
+Fork -> Clone -> **Code Changes** -> Merge Upstream -> Push -> PR 
+
+## Git commands 
+
+- git config
+- git clone
+- git status
+- git branch
+- git log --pretty=oneline
+- git alias
+
+## Markdown
+
+## Git Comments
+
+## .gitignore
+
+## Resources
+
+What to read after this ?
+
+- [Documenting your projects on GitHub](https://guides.github.com/features/wikis/)
+
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+- [Forking Projects](https://guides.github.com/activities/forking/)
+
+- [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
+
+## Attendees
+
+- Pradeep Bashyal
+- <Your Name>
