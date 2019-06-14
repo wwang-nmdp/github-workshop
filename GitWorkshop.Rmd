@@ -7,7 +7,7 @@ output:
     incremental: true
     widescreen: false
     logo: cibmtr-logo.png
-    css: styles.css 
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
@@ -16,8 +16,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## GitHub Signup Process {#github-signup-process .emphasized}
 
-1. Goto https://github.com/ and signup for a free account. 
-	- Make sure your GitHub username is your NMDP username and *-nmdp* added to it. Eg. my GitHub username is **pbashyal-nmdp** 
+1. Goto https://github.com/ and signup for a free account.
+	- Make sure your GitHub username is your NMDP username and *-nmdp* added to it. Eg. my GitHub username is **pbashyal-nmdp**
 	- Use your nmdp.org email address for the email
 2. Email me your GitHub username after you're signed up.
 3. I'll add you to CIBMTR org team and you will be sent an invite email to join.
@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - **Git** is the revision control software.
 
-  Git compares to **SVN**, **CVS** 
+  Git compares to **SVN**, **CVS**
 
 <div class="notes">
   Git is mostly unlearning centrality aspect of SVN, CVS.
@@ -34,16 +34,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - **GitHub** is a website and the remote server that hosts all the git repositories.
 
-  GitHub compares to **BitBucket**, **GitLab** 
+  GitHub compares to **BitBucket**, **GitLab**
 
 ## A tour of GitHub
 
 - Profile page
   - Profile Update Bio etc.
   - Security - Change Password
-  
+
 - Create a `hello-world` repo
-  
+
 - Settings on each repo
 
 - Issues
@@ -75,7 +75,7 @@ Keep it simple and you'll be fine.
 - Git Commit
 - Pull Requests
 
-## Git Configure 
+## Git Configure
 
 - git config
 
@@ -84,19 +84,19 @@ Keep it simple and you'll be fine.
   git config --global user.name "Pradeep Bashyal"
   git config --global user.email "email@nmdp.org"
   ```
-  
+
   Refrences:
-  
+
   [Setting your username in Git](https://help.github.com/en/articles/setting-your-username-in-git)
-  
+
   [Setting your commit email address in Git](https://help.github.com/en/articles/setting-your-commit-email-address-in-git)
-  
+
   [Git Reference:git-config](https://git-scm.com/docs/git-config)
-  
+
 
 ## Git Forking Workflow {#forking-workflow}
 
-Fork -> Clone -> Feature Branch -> **Code Changes** -> Merge Upstream -> Push -> PR 
+Fork -> Clone -> Feature Branch -> **Code Changes** -> Merge Upstream -> Push -> PR
 
 [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) :
 
@@ -118,7 +118,7 @@ Fork -> Clone -> Feature Branch -> **Code Changes** -> Merge Upstream -> Push ->
     brew install bash-git-prompt
   ```
 
-## Git commands 
+## Git commands
 
 - git clone
 
@@ -126,7 +126,7 @@ Fork -> Clone -> Feature Branch -> **Code Changes** -> Merge Upstream -> Push ->
 
 - git branch
 
-## Git commands 
+## Git commands
 
 - git log
   ```
@@ -171,3 +171,4 @@ What to read after this ?
 ## Attendees
 
 - Pradeep Bashyal
+- Stephanie Fingerson
