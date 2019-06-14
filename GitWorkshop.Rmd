@@ -1,0 +1,145 @@
+---
+title: "GitHub Workshop, Bioinformatics Team"
+author: "Pradeep Bashyal"
+date: "6/14/2019"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: false
+    logo: cibmtr-logo.png
+    css: styles.css 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## GitHub Signup Process {#github-signup-process .emphasized}
+
+1. Goto https://github.com/ and signup for a free account. 
+	- Make sure your GitHub username is your NMDP username and *-nmdp* added to it. Eg. my GitHub username is **pbashyal-nmdp** 
+	- Use your nmdp.org email address for the email
+2. Email me your GitHub username after you're signed up.
+3. I'll add you to CIBMTR org team and you will be sent an invite email to join.
+
+## Git vs GitHub
+
+- **Git** is the revision control software.
+  
+  Git compares to **SVN**, **CVS** 
+
+<div class="notes">
+  Git is mostly unlearning centrality aspect of SVN, CVS.
+</div>
+
+- **GitHub** is a website and the remote server that hosts all the git repositories.
+
+  GitHub compares to **BitBucket**, **GitLab** 
+
+## A tour of GitHub
+
+- Profile page
+  - Profile Update Bio etc.
+  - Security - Change Password
+  
+- Create a `hello-world` repo
+  
+- Settings on each repo
+
+- Issues
+
+- Pull Requests
+
+- Wikis (like Confluence)
+
+Reference: [Hello World](https://guides.github.com/activities/hello-world/)
+
+<div class="notes">
+  This is the model to use if you're working on your own codebase, not sharing with others or working in BitBucket.
+</div>
+
+## A tour of Git
+
+Know **git** is terrible. It's not you.
+
+Keep it simple and you'll be fine.
+
+## Git concepts
+
+- Repository
+- Fork
+- Branch
+- Upstream
+- Origin
+- Git add to stage
+- Git Commit
+- Pull Requests
+
+## Git Forking Workflow
+
+Fork -> Clone -> **Code Changes** -> Merge Upstream -> Push -> PR 
+[Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) :
+
+- A developer 'forks' an 'official' server-side repository. This creates their own server-side copy.
+- The new server-side copy is cloned to their local system.
+- A Git remote path for the 'official' repository is added to the local clone.
+- A new local feature branch is created.
+- The developer makes changes on the new branch.
+- New commits are created for the changes.
+- The branch gets pushed to the developer's own server-side copy.
+- The developer opens a pull request from the new branch to the 'official' repository.
+- The pull request gets approved for merge and is merged into the original server-side repository
+
+
+## Git commands 
+
+- git config
+  Set your global 
+  ```
+  git config --global user.name "Pradeep Bashyal"
+  git config --global user.email "pbashyal@nmdp.org"
+  ```
+  
+  Refrences:
+  
+  [Setting your username in Git](https://help.github.com/en/articles/setting-your-username-in-git)
+  
+  [Setting your commit email address in Git](https://help.github.com/en/articles/setting-your-commit-email-address-in-git)
+  
+  [Git Reference:git-config](https://git-scm.com/docs/git-config)
+  
+## Git commands 
+
+- git clone
+
+- git status
+
+- git branch
+
+- git log
+  - git log --pretty=oneline
+
+- git alias
+
+## Markdown
+
+## Git Comments
+
+## .gitignore
+
+## Resources
+
+What to read after this ?
+
+- [Documenting your projects on GitHub](https://guides.github.com/features/wikis/)
+
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+- [Forking Projects](https://guides.github.com/activities/forking/)
+
+- [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
+
+## Attendees
+
+- Pradeep Bashyal
+- <Your Name>
