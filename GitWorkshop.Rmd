@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Git vs GitHub
 
 - **Git** is the revision control software.
-  
+
   Git compares to **SVN**, **CVS** 
 
 <div class="notes">
@@ -52,7 +52,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Wikis (like Confluence)
 
-Reference: [Hello World](https://guides.github.com/activities/hello-world/)
+- Reference: [Hello World](https://guides.github.com/activities/hello-world/)
 
 <div class="notes">
   This is the model to use if you're working on your own codebase, not sharing with others or working in BitBucket.
@@ -90,11 +90,11 @@ Fork -> Clone -> **Code Changes** -> Merge Upstream -> Push -> PR
 - The developer opens a pull request from the new branch to the 'official' repository.
 - The pull request gets approved for merge and is merged into the original server-side repository
 
-
 ## Git commands 
 
 - git config
-  Set your global 
+
+  Set your global config
   ```
   git config --global user.name "Pradeep Bashyal"
   git config --global user.email "pbashyal@nmdp.org"
