@@ -1,2 +1,3 @@
 # github-workshop
-GitHub Workshop, Biox Team
+
+GitHub Workshop, Bioinformatics Team

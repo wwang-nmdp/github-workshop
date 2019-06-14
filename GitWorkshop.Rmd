@@ -75,9 +75,29 @@ Keep it simple and you'll be fine.
 - Git Commit
 - Pull Requests
 
-## Git Forking Workflow
+## Git Configure 
 
-Fork -> Clone -> **Code Changes** -> Merge Upstream -> Push -> PR 
+- git config
+
+  Set your global config
+  ```
+  git config --global user.name "Pradeep Bashyal"
+  git config --global user.email "email@nmdp.org"
+  ```
+  
+  Refrences:
+  
+  [Setting your username in Git](https://help.github.com/en/articles/setting-your-username-in-git)
+  
+  [Setting your commit email address in Git](https://help.github.com/en/articles/setting-your-commit-email-address-in-git)
+  
+  [Git Reference:git-config](https://git-scm.com/docs/git-config)
+  
+
+## Git Forking Workflow {#forking-workflow}
+
+Fork -> Clone -> Feature Branch -> **Code Changes** -> Merge Upstream -> Push -> PR 
+
 [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) :
 
 - A developer 'forks' an 'official' server-side repository. This creates their own server-side copy.
@@ -90,24 +110,14 @@ Fork -> Clone -> **Code Changes** -> Merge Upstream -> Push -> PR
 - The developer opens a pull request from the new branch to the 'official' repository.
 - The pull request gets approved for merge and is merged into the original server-side repository
 
-## Git commands 
+## Git Bash Tool
 
-- git config
+- Bash Git Prompt
 
-  Set your global config
   ```
-  git config --global user.name "Pradeep Bashyal"
-  git config --global user.email "pbashyal@nmdp.org"
+    brew install bash-git-prompt
   ```
-  
-  Refrences:
-  
-  [Setting your username in Git](https://help.github.com/en/articles/setting-your-username-in-git)
-  
-  [Setting your commit email address in Git](https://help.github.com/en/articles/setting-your-commit-email-address-in-git)
-  
-  [Git Reference:git-config](https://git-scm.com/docs/git-config)
-  
+
 ## Git commands 
 
 - git clone
@@ -116,16 +126,33 @@ Fork -> Clone -> **Code Changes** -> Merge Upstream -> Push -> PR
 
 - git branch
 
+## Git commands 
+
 - git log
-  - git log --pretty=oneline
+  ```
+    git log --pretty=oneline
+  ```
 
 - git alias
+  ```
+    git config --global alias.co checkout
+    git config --global alias.st status
+    git config --global alias.ci commit
+  ```
 
 ## Markdown
 
+[Github Markdown](https://guides.github.com/features/mastering-markdown/)
+
+
 ## Git Comments
 
+### The seven rules of a great Git commit message
+[How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/#seven-rules)
+
 ## .gitignore
+
+`.gitignore` file in your repository that lists all the fires and directories that you want ignored. Your data, output and temporary files/directories should be listed here.
 
 ## Resources
 
@@ -138,6 +165,8 @@ What to read after this ?
 - [Forking Projects](https://guides.github.com/activities/forking/)
 
 - [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
+
+- [Pro Git Book](https://git-scm.com/book)
 
 ## Attendees
 

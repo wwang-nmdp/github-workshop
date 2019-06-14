@@ -6,6 +6,10 @@
   color: gray;
 }
 
+#forking-workflow {
+  font-size: 0.8em;
+}
+
 /* Logo Image on the intro slide */
 .gdbar img {
   width: 250px !important;
