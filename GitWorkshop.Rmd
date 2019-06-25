@@ -171,6 +171,7 @@ What to read after this ?
 ## Attendees
 
 - Pradeep Bashyal
+- Mohammed Sayed
 - Huajun Zhou
 - Stephanie Fingerson
 - Martin Maiers
