@@ -171,4 +171,5 @@ What to read after this ?
 ## Attendees
 
 - Pradeep Bashyal
+- Huajun Zhou
 - Stephanie Fingerson
